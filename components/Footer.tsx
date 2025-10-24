@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React from 'https://aistudiocdn.com/react@^19.2.0';
 import { PERSONAL_INFO } from '../constants';
 
 const Footer: React.FC = () => {

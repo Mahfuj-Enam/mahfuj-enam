@@ -1,4 +1,3 @@
-
 import { Experience, Skill } from './types';
 
 export const PERSONAL_INFO = {
@@ -7,7 +6,8 @@ export const PERSONAL_INFO = {
     email: "mahfuj.enam@example.com",
     linkedin: "https://www.linkedin.com/in/mahfujalenam",
     github: "https://github.com/mahfujalenam",
-    cvPath: "/mahfuj_al_enam_cv.pdf"
+    cvPath: "./mahfuj_al_enam_cv.pdf",
+    profilePhotoUrl: "https://drive.google.com/uc?export=view&id=14FTMoNuXgw7S_l1j0JfWRg8avfpCz7dA"
 };
 
 export const EXPERIENCE_DATA: Experience[] = [

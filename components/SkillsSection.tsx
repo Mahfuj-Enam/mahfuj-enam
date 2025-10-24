@@ -1,5 +1,4 @@
-
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'https://aistudiocdn.com/react@^19.2.0';
 import { SKILLS_DATA } from '../constants';
 import type { Skill } from '../types';
 

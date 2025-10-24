@@ -1,5 +1,4 @@
-
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'https://aistudiocdn.com/react@^19.2.0';
 import { EDUCATION_DATA } from '../constants';
 
 const AnimatedCounter: React.FC<{ end: number; duration?: number }> = ({ end, duration = 2000 }) => {

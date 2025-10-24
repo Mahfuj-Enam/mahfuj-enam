@@ -1,5 +1,4 @@
-
-import React, { useState } from 'react';
+import React, { useState } from 'https://aistudiocdn.com/react@^19.2.0';
 import { PERSONAL_INFO } from '../constants';
 
 const ContactSection: React.FC = () => {

@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React from 'https://aistudiocdn.com/react@^19.2.0';
 import { PERSONAL_INFO } from '../constants';
 
 const HeroSection: React.FC = () => {
@@ -8,7 +7,7 @@ const HeroSection: React.FC = () => {
       <div className="absolute inset-0 bg-grid-gray-300/[0.2] dark:bg-grid-gray-700/[0.2]"></div>
       <div className="container mx-auto px-6 text-center z-10 animate-fade-in-up">
         <img
-          src="https://picsum.photos/seed/mahfuj/200/200"
+          src={PERSONAL_INFO.profilePhotoUrl}
           alt="Mahfuj Al Enam"
           className="w-40 h-40 md:w-48 md:h-48 rounded-full mx-auto mb-6 shadow-2xl border-4 border-white dark:border-gray-600 object-cover"
         />
